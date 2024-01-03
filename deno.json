@@ -8,7 +8,7 @@
     "dev": "deno run -A --watch ./server.ts"
   },
   "compilerOptions": {
-    "jsx": "precompile",
+    "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
   },
   "lock": false
