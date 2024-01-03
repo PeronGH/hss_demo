@@ -30,7 +30,7 @@ const Options = async (
 export const MainPage: FC<MainPageProps> = ({ initialText, options = [] }) => (
   <Layout>
     <form method="post">
-      <textarea name="context">{initialText}</textarea>
+      <textarea name="context" required>{initialText}</textarea>
       <Suspense fallback={<p aria-busy="true">Generating...</p>}>
         <Options options={options} />
       </Suspense>
