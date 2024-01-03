@@ -1,4 +1,4 @@
-import { FC } from "hono/jsx";
+import { FC } from "hono/middleware.ts";
 
 export const Layout: FC = ({ children }) => (
   <html lang="en">

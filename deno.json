@@ -1,9 +1,7 @@
 {
   "imports": {
-    "hono": "npm:hono@3.11.12",
-    "hono/jsx": "npm:hono/jsx",
-    "hono/jsx/streaming": "npm:hono/jsx/streaming",
-    "hono/jsx-renderer": "npm:hono/jsx-renderer",
+    "hono/": "https://deno.land/x/hono@v3.11.2/",
+    "hono/jsx/jsx-runtime": "https://deno.land/x/hono@v3.11.2/jsx/jsx-runtime.ts",
     "std/": "https://deno.land/std@0.210.0/"
   },
   "tasks": {

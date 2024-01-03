@@ -1,6 +1,6 @@
-import { Hono } from "hono";
+import { Hono } from "hono/mod.ts";
 import { MainPage } from "./page.tsx";
-import { jsxRenderer } from "hono/jsx-renderer";
+import { jsxRenderer } from "hono/middleware.ts";
 import { llamaCppNextToken } from "./backend.ts";
 
 export const app = new Hono();

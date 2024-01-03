@@ -1,6 +1,6 @@
-import { FC } from "hono/jsx";
+import { FC } from "hono/middleware.ts";
 import { Layout } from "./layout.tsx";
-import { Suspense } from "hono/jsx/streaming";
+import { Suspense } from "hono/jsx/streaming.ts";
 import { MaybePromise, toPercents } from "./utils.ts";
 import { TokenOption } from "./backend.ts";
 
