@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "hono": "npm:hono@3.11.12",
+    "hono/jsx": "npm:hono/jsx",
+    "hono/jsx/streaming": "npm:hono/jsx/streaming",
+    "hono/jsx-renderer": "npm:hono/jsx-renderer",
+    "std/": "https://deno.land/std@0.210.0/"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch ./server.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "npm:hono/jsx"
+  },
+  "lock": false
+}
